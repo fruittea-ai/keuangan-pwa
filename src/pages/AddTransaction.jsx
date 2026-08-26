@@ -102,9 +102,7 @@ export default function AddTransaction({ accounts, categories, onSave, saving, o
             ))}
           </select>
           <small className="form-help">
-            {form.type === "INCOME"
-              ? "Hanya kategori pemasukan yang ditampilkan."
-              : "Hanya kategori pengeluaran yang ditampilkan."}
+            {form.type === "INCOME"}
           </small>
         </label>
 
